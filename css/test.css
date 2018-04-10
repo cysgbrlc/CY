@@ -1,0 +1,40 @@
+body,html{
+    padding:0;
+    margin:0;
+}
+ul,li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.test{
+    width:100%;
+    height:25em;
+    overflow:hidden;
+    position:relative;
+}
+.testLi{
+    /*width:100em;*/
+    height:41.22375em;
+    float:left;
+}
+img{
+   margin-top: -129.264px;
+   width:100%;
+   height:100%;
+}
+#testUl{
+    width:400em;
+    position:absolute;
+    top:0;
+    left:0;
+    transition-duration: 500ms;
+    transform: translate3d(0px, 0px, 0px);
+    zoom:1;
+}
+
+#testUl:after{
+    content:" ";
+    display:block;
+    clear:both;
+}
